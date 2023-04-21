@@ -1,0 +1,16 @@
+.home-section {
+    width: 83%;
+    transition: all 0.5s ease;
+    position: absolute;
+    right: 0;
+}
+
+.sidebar.close~.home-section {
+    width: 96%;
+    width: calc(100% - 78px);
+}
+
+header {
+    background: #e4e9f7;
+    height: 55px;
+}

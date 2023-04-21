@@ -1,0 +1,10 @@
+.tablebox{
+    width: 100%;
+    overflow: auto;
+}
+.table-details-container{
+    display: flex;
+}
+.out{
+    min-width: 70%;
+}

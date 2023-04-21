@@ -1,0 +1,18 @@
+.modal-form-list {
+    margin: 1vw, 0, 1vw, 0;
+    padding: 1vw, 0, 1vw, 0;
+}
+
+.modal-form-list span {
+    display: flex;
+    flex-direction: row;
+}
+
+.modal-form-list span input {
+    margin-right: 2vw;
+}
+
+.modal-heading {
+    display: flex;
+    justify-content: space-between;
+}

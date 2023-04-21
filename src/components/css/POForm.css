@@ -1,0 +1,10 @@
+.mybtn {
+    width: fit-content;
+    margin: auto 10px 10px auto;
+}
+
+.form-label {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 6px;
+}

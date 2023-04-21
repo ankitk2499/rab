@@ -1,0 +1,131 @@
+@import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css");
+
+.sidebar {
+  width: 17%;
+  height: 100vh;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  z-index: 100;
+  overflow: hidden;
+  position: fixed;
+}
+
+.close {
+  width: 6% !important;
+}
+
+.mydisplay {
+  display: none !important;
+}
+
+#leftside-navigation {
+  overflow-y: auto;
+  background-color: #f7f7fe;
+  height: 100%
+}
+
+.sidebar #leftside-navigation ul,
+.sidebar #leftside-navigation ul ul {
+  margin-left: 5px;
+  padding: 0;
+}
+
+.navbar-brand {
+  background: #f7f7fe;
+  border-right: .5rem solid #f1f1f1;
+}
+
+.sidebar #leftside-navigation ul li {
+  list-style-type: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.sidebar #leftside-navigation ul li.active ul {
+  display: block;
+}
+
+.sidebar #leftside-navigation ul li a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding: 12px 0 12px 17px;
+  font-size: 14px;
+  outline: 0;
+  -webkit-transition: all 200ms ease-in;
+  -moz-transition: all 200ms ease-in;
+  -o-transition: all 200ms ease-in;
+  -ms-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
+
+.sidebar #leftside-navigation ul ul li a.sidebar_item.active {
+  background-color: #29a4e1 !important;
+  border-radius: 10px 12px 12px 10px;
+}
+
+.sidebar #leftside-navigation ul li a:hover {
+  background-color: #29a4e1;
+  border-radius: 10px 12px 12px 10px;
+}
+
+.sidebar #leftside-navigation ul li a span {
+  display: inline-block;
+}
+
+.sidebar #leftside-navigation ul li a i {
+  width: 20px;
+  margin-right: 3px;
+}
+
+.nano-content li {
+  margin: .5rem 0;
+}
+
+.sidebar #leftside-navigation ul li a i .fa-angle-left,
+.sidebar #leftside-navigation ul li a i .fa-angle-right {
+  padding-top: 3px;
+}
+
+.sidebar #leftside-navigation ul ul {
+  display: none;
+}
+
+.sidebar #leftside-navigation ul ul li {
+  /* background: #23313f; */
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  border-bottom: none;
+}
+
+.sidebar #leftside-navigation ul ul li a {
+  font-size: 13px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  color: black;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b3b2b2;
+}
